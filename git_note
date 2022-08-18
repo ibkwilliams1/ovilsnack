@@ -1,0 +1,24 @@
+ CHAPTER 7
+Generating an SSH key
+this is done in the following steps bellow
+on your machine 
+ensure .ssh directory exist or make the direcory by typing 
+mkdir .ssh
+cd .ssh/
+To generate the ssh key
+type ssh-keygen -t rsa -C "e.mail"
+The above command will generate two keys 
+TO VERIFY SSH AUTHENTICATION WITH GITHUB
+copy the public key to your remote gitHUB in the ssh key
+
+CHAPTER 8 | VIEW |EDIT | CREATE | DELETE FILES
+The best recommendation is to work locally and then push the work to the remote github
+TO CREATE A LOCAL COPY WITH CLONE  OF OUR REMOTE REPO
+GOTO the remote repo scroll to SSh CLONE and copy the url and switch on the terminal then type
+git clone {the ssh url}
+git clone git@github.com:ibkwilliams1/my-website.git
+OR 
+git clone {the ssh url} {the new folder name we want the remote to be called}
+git clone git@github.com:ibkwilliams1/my-website.git ovilsnack
+
+

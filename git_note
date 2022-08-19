@@ -32,6 +32,11 @@ TO preset git push to automatically recognize the corresponding remote branch in
 git config --global push.default simple
 
 THE DIFF BTW FETCH AND PULL
+When you have different versions of editions/ commits of files in both remote and local repos
+THIS WILL RESULT IN REJECT OF ANY PUSH COMMAND
+
+the best practice is to first FETCH > PULL > PUSH in this order
+PULL = FETCH + MERGE (COMMAND TOGETHER)
 
 
 

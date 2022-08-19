@@ -28,4 +28,9 @@ TO PUSH UP OR PUBLISH BACK TO GITHUB
 Use the below command
 git push origin {branch} e.g. git push origin TestGit
 
+TO preset git push to automatically recognize the corresponding remote branch in which local  branch pushes the current branch, but this is already solve in git 2.0
+git config --global push.default simple
+
+
+
 

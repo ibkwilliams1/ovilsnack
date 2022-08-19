@@ -38,7 +38,10 @@ THIS WILL RESULT IN REJECT OF ANY PUSH COMMAND
 the best practice is to first FETCH > PULL > PUSH in this order
 PULL = FETCH + MERGE (COMMAND TOGETHER)
 
-
+TO UPDATE REPOSITORY AND REMOTE REFERENCES
+git remote set-url origin {the current ssh url from git remote}
+e.g.
+git remote set-url origin git@github.com:ibkwilliams1/ovilsnack.git
 
 
 

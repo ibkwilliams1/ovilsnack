@@ -21,4 +21,5 @@ OR
 git clone {the ssh url} {the new folder name we want the remote to be called}
 git clone git@github.com:ibkwilliams1/my-website.git ovilsnack
 
+git status [ this command check the stage of git weither commit stage OR ready for PUSH to the remote repository
 

@@ -43,5 +43,27 @@ git remote set-url origin {the current ssh url from git remote}
 e.g.
 git remote set-url origin git@github.com:ibkwilliams1/ovilsnack.git
 
+TO ADD
+git add .
+note the dot is the argument that specify add everything in the repository.
 
+TO COMMIT
+git commit -m "commit msg"
 
+TO PUSH UP TO GITHUB
+
+git push origin [branch name]
+the first parameter is the name of the remote to use =origin
+and then the branch = master or TestGit or your prefered branch in the remote repo
+
+TO CONFIGURE GIT PUSH.DEFAULT [this is peculiar to git version older than 2.0
+
+TO CHECK THE GIT VERSION
+TYPE git version
+To CONFIGURE THE PUSH.DEFAULT
+TYPE
+git config --global push.default simple
+when push.default is set to 'matching' git will push local branches to the remote branches that already exist with the same name
+
+but Git. 2.0, Git defaults to the more conservative
+'simple' behaviou, which only pushes the CURRENT BRANCH to the CORRESPONDING REMOTE BRANCH 

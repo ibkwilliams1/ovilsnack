@@ -67,3 +67,12 @@ when push.default is set to 'matching' git will push local branches to the remot
 
 but Git. 2.0, Git defaults to the more conservative
 'simple' behaviou, which only pushes the CURRENT BRANCH to the CORRESPONDING REMOTE BRANCH 
+
+TO MERGE OTHER BRANCHES TO MASTER
+FIRST Ensure the remote master branch is of the updated with local
+this can be done by
+first 
+git pull 
+follow by 
+git merge
+this merges the other branches with master branch

@@ -76,3 +76,6 @@ git pull
 follow by 
 git merge
 this merges the other branches with master branch
+
+TO UPDATE ALL TRACKING BRACHES AT THE SAME TIME
+Type git pull --all

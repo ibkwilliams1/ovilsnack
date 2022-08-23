@@ -79,3 +79,13 @@ this merges the other branches with master branch
 
 TO UPDATE ALL TRACKING BRACHES AT THE SAME TIME
 Type git pull --all
+
+TO DELETE BRANCH from the local repo
+
+git branch -d [the branch name]
+
+TO DELETE BRANCH FROM REMOTE GITHUB
+
+git push origin :[the branch name]
+
+
